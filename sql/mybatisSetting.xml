@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+<configuration>
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    <typeAliases>
+        <typeAlias type="com.sodasys.sgms.user.vo.UserVo" alias="userVo"/>
+        <typeAlias type="com.sodasys.sgms.menu.vo.MenuVo" alias="menuVo"/>
+   	   	<typeAlias type="com.sodasys.sgms.information.vo.InformationVo" alias="informationVo"/>
+   	   	<typeAlias type="com.sodasys.sgms.realTime.vo.RealTimeVo" alias="realTimeVo"/>
+   	   	<typeAlias type="com.sodasys.sgms.realTime.vo.SearchVo" alias="searchVo"/>
+        <typeAlias type="com.sodasys.sgms.comn.stdg.vo.StdgVo" alias="stdgVo"/>
+        <typeAlias type="com.sodasys.sgms.obsvData.vo.ObsvDataVo" alias="obsvDataVo"/>
+        <typeAlias type="com.sodasys.sgms.obsvData.vo.ObsvWeaherVo" alias="obsvWeatherVo"/>
+    </typeAliases>
+  
+
+</configuration>
